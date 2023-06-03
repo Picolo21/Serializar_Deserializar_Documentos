@@ -23,5 +23,14 @@ public class Program
         {
             serializer.Serialize(sw, user);
         }
+
+        using (StreamReader sr = new StreamReader(pathFile))
+        {
+            User? userDeserializer = serializer.Deserialize(sr) as User;
+
+            Console.WriteLine(userDeserializer.Name);
+            Console.WriteLine(userDeserializer.Cpf);
+            Console.WriteLine(userDeserializer.Email);
+        }
     }
 }
