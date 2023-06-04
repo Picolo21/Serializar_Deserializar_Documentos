@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeserializarJSON", "DeserializarJSON\DeserializarJSON.csproj", "{C28F3852-8C95-46B6-B827-90840F25B356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{0B13B2BB-BDDD-43C8-A6EF-8936EEF4A725}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C28F3852-8C95-46B6-B827-90840F25B356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28F3852-8C95-46B6-B827-90840F25B356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28F3852-8C95-46B6-B827-90840F25B356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28F3852-8C95-46B6-B827-90840F25B356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B13B2BB-BDDD-43C8-A6EF-8936EEF4A725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B13B2BB-BDDD-43C8-A6EF-8936EEF4A725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B13B2BB-BDDD-43C8-A6EF-8936EEF4A725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B13B2BB-BDDD-43C8-A6EF-8936EEF4A725}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C80C60DA-3616-49E4-B467-1948A2998CD0}
+	EndGlobalSection
+EndGlobal
